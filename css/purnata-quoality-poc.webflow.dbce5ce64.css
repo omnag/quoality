@@ -1,4 +1,4 @@
-/* Generated on: Sun Aug 21 2022 17:20:54 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Sun Aug 21 2022 17:26:34 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -5561,10 +5561,7 @@ a {
   }
 
   .section {
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+    margin-left: 16px;
   }
 
   .section.vertical {
@@ -5595,8 +5592,28 @@ a {
     font-size: 32px;
   }
 
+  .tags {
+    margin-bottom: 20px;
+    margin-left: 16px;
+  }
+
+  .blog-details {
+    margin-left: 16px;
+  }
+
   .blog-image {
     width: 100%;
+  }
+
+  .subheading.is-inter.flexible {
+    margin-right: 10px;
+    margin-left: 16px;
+  }
+
+  .highlight-blog {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d0d5dd;
   }
 
   .blog-image-2 {
@@ -5618,6 +5635,7 @@ a {
 
   .blog-image-prod {
     width: 100%;
+    border-radius: 0px;
   }
 
   .header-container__display {
@@ -5670,6 +5688,10 @@ a {
 
   .bkg-lines.home-2 {
     bottom: -462px;
+  }
+
+  .title-3.home {
+    margin-left: 16px;
   }
 
   .integration-logo {
@@ -5791,6 +5813,10 @@ a {
 
   .bold-text {
     border: 1px solid transparent;
+  }
+
+  .image-27 {
+    margin-right: 10px;
   }
 }
 
