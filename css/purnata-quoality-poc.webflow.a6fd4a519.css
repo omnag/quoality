@@ -1,4 +1,4 @@
-/* Generated on: Sun Aug 21 2022 13:07:14 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Sun Aug 21 2022 17:11:34 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -5672,6 +5672,12 @@ a {
     bottom: -462px;
   }
 
+  .integration-logo {
+    width: 200px;
+    height: 118px;
+    max-width: 100%;
+  }
+
   .div-block-12 {
     width: 240px;
   }
@@ -5683,6 +5689,17 @@ a {
     justify-content: flex-start;
     grid-column-gap: 24px;
     grid-row-gap: 24px;
+  }
+
+  .customer-details {
+    bottom: 9%;
+    width: 64%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #fff;
+    opacity: 1;
+    -webkit-backdrop-filter: blur(5px) blur(10px);
+    backdrop-filter: blur(5px) blur(10px);
   }
 
   .image-19 {
@@ -9803,6 +9820,17 @@ a {
     -ms-flex-item-align: auto;
     -ms-grid-row-align: auto;
     align-self: auto;
+  }
+
+  #w-node-_4b9db2ba-514e-fac6-b49f-7eee77fb9659-05a4eee0 {
+    -ms-grid-column: span 1;
+    grid-column-start: span 1;
+    -ms-grid-column-span: 1;
+    grid-column-end: span 1;
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
   }
 }
 
