@@ -1,4 +1,4 @@
-/* Generated on: Sun Aug 21 2022 17:12:56 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Sun Aug 21 2022 17:18:29 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -5692,18 +5692,26 @@ a {
   }
 
   .customer-details {
-    bottom: 9%;
+    left: 0%;
+    bottom: 6%;
     width: 64%;
     border-style: solid;
     border-width: 1px;
     border-color: #fff;
+    border-radius: 16px;
     opacity: 1;
-    -webkit-backdrop-filter: blur(5px) blur(10px);
-    backdrop-filter: blur(5px) blur(10px);
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
   }
 
   .inter-48sb.black {
+    color: #fff;
     font-size: 35px;
+    text-shadow: 0 6px 20px #5b5b5b;
+  }
+
+  .divider---testimonial {
+    background-color: transparent;
   }
 
   .image-19 {
@@ -5779,6 +5787,10 @@ a {
 
   .container__display-2 {
     max-width: 1216px;
+  }
+
+  .bold-text {
+    border: 1px solid transparent;
   }
 }
 
