@@ -1,4 +1,4 @@
-/* Generated on: Mon Aug 22 2022 02:45:07 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Mon Aug 22 2022 02:51:32 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -4620,7 +4620,7 @@ a {
   display: block;
   width: 80%;
   margin: -26px auto 60px;
-  padding: 70px;
+  padding: 70px 70px 70px 24px;
   border-radius: 4px;
   background-color: #fff;
   box-shadow: 0 0 33px 0 rgba(0, 0, 0, 0.04);
@@ -4721,6 +4721,11 @@ a {
 
 .section-2.blog-page-section {
   background-color: #f5f5f5;
+}
+
+.rich-text-block {
+  background-color: transparent;
+  font-style: normal;
 }
 
 .section-title {
@@ -5566,6 +5571,10 @@ a {
 
   .header-im {
     width: 100%;
+  }
+
+  .blog-post-page-content {
+    padding-right: 24px;
   }
 }
 
