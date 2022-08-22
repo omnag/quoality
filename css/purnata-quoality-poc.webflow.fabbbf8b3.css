@@ -1,4 +1,4 @@
-/* Generated on: Mon Aug 22 2022 03:51:41 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Mon Aug 22 2022 10:43:02 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -5296,6 +5296,10 @@ a {
     border-radius: 16px;
   }
 
+  .web-check-in-im {
+    text-align: center;
+  }
+
   .div-block-12 {
     width: 180px;
   }
@@ -5325,6 +5329,14 @@ a {
     margin-bottom: 148px;
     grid-column-gap: 32px;
     grid-row-gap: 32px;
+  }
+
+  .column-7 {
+    text-align: center;
+  }
+
+  .column-7.hide {
+    text-align: center;
   }
 
   .image-19 {
@@ -5421,6 +5433,11 @@ a {
     top: 0%;
     right: 0%;
     bottom: 0%;
+  }
+
+  .image-21 {
+    width: 80%;
+    max-width: 100%;
   }
 
   .div-block-13-copy {
@@ -5577,6 +5594,10 @@ a {
 
   .blog-post-page-content {
     padding-right: 24px;
+  }
+
+  .column-16 {
+    text-align: center;
   }
 }
 
@@ -5885,6 +5906,8 @@ a {
 
   .header-im {
     position: static;
+    width: 100%;
+    height: 100%;
     max-height: 100%;
     max-width: 100%;
     -o-object-fit: cover;
@@ -8043,6 +8066,7 @@ a {
     border-width: 24px 16px;
     border-top-style: solid;
     border-radius: 0px;
+    text-align: center;
   }
 
   .column-7.hide {
@@ -8073,6 +8097,7 @@ a {
   .web-check-in-im-2 {
     display: block;
     margin-top: 40px;
+    text-align: center;
   }
 
   .grid-7 {
@@ -8236,6 +8261,10 @@ a {
     height: 42px;
     margin-top: 24px;
     font-size: 18px;
+  }
+
+  .product-blog {
+    margin-top: 16px;
   }
 
   .manrope-20r {
@@ -8892,6 +8921,12 @@ a {
     width: 110%;
   }
 
+  .manrope-16sb {
+    color: #101828;
+    font-size: 18px;
+    font-weight: 700;
+  }
+
   .column-2 {
     display: -webkit-box;
     display: -webkit-flex;
@@ -8974,6 +9009,7 @@ a {
   }
 
   .customer-im {
+    width: 100%;
     height: 560px;
     -o-object-fit: cover;
     object-fit: cover;
@@ -9001,6 +9037,14 @@ a {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
+  }
+
+  .column-7 {
+    text-align: center;
+  }
+
+  .web-check-in-im-2 {
+    text-align: center;
   }
 
   .testimonial-content-column {
@@ -9031,6 +9075,10 @@ a {
     padding-left: 20px;
   }
 
+  .customer-im-wrapper {
+    position: relative;
+  }
+
   .div-block-13-copy {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -9050,6 +9098,10 @@ a {
     -ms-flex-item-align: stretch;
     -ms-grid-row-align: stretch;
     align-self: stretch;
+  }
+
+  .product-blog {
+    margin-top: 16px;
   }
 
   .buttons-wrapper-mob {
@@ -9177,6 +9229,7 @@ a {
   }
 
   .header-im {
+    width: 100%;
     -o-object-fit: cover;
     object-fit: cover;
   }
