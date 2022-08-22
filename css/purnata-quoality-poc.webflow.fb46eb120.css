@@ -1,4 +1,4 @@
-/* Generated on: Mon Aug 22 2022 03:47:21 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Mon Aug 22 2022 03:51:41 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -226,8 +226,8 @@ a {
   padding-right: 8px;
   padding-left: 8px;
   font-family: Manrope, sans-serif;
-  font-size: 16px;
-  font-weight: 500;
+  font-size: 18px;
+  font-weight: 600;
 }
 
 .nav-item:hover {
@@ -3194,7 +3194,8 @@ a {
 
 .nav-name.dd {
   margin-right: 0px;
-  font-size: 16px;
+  font-size: 18px;
+  font-weight: 600;
 }
 
 .mega-menu-wrapper-common {
@@ -4777,9 +4778,9 @@ a {
     padding-right: 12px;
     padding-left: 12px;
     font-family: Manrope, sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 21.86px;
-    font-weight: 500;
+    font-weight: 600;
   }
 
   .nav-item.dd {
@@ -5468,7 +5469,8 @@ a {
 
   .nav-name.dd {
     margin-right: 4px;
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: 600;
   }
 
   .dropdown-nav {
@@ -5883,8 +5885,8 @@ a {
 
   .header-im {
     position: static;
-    max-height: 80%;
-    max-width: 80%;
+    max-height: 100%;
+    max-width: 100%;
     -o-object-fit: cover;
     object-fit: cover;
   }
