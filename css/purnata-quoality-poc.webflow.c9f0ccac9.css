@@ -1,4 +1,4 @@
-/* Generated on: Mon Aug 22 2022 02:58:39 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Mon Aug 22 2022 03:06:36 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -1597,8 +1597,8 @@ a {
 }
 
 .blog-image-2 {
-  width: 200px;
-  height: 195px;
+  width: 191px;
+  height: 188px;
   border-radius: 0px;
   -o-object-fit: cover;
   object-fit: cover;
@@ -5620,6 +5620,10 @@ a {
     font-size: 32px;
   }
 
+  .blogs {
+    grid-template-areas: "Area-2 Area";
+  }
+
   .tags {
     margin-bottom: 20px;
     margin-left: 16px;
@@ -5633,8 +5637,16 @@ a {
     width: 100%;
   }
 
+  .title.with-arrow {
+    margin-left: 16px;
+  }
+
   .subheading.is-inter.flexible {
     margin-right: 10px;
+    margin-left: 16px;
+  }
+
+  .subheading.flexible {
     margin-left: 16px;
   }
 
@@ -5716,8 +5728,16 @@ a {
     font-size: 32px;
   }
 
+  .title-2 {
+    margin-left: 16px;
+  }
+
   .bkg-lines.home-2 {
     bottom: -462px;
+  }
+
+  .title-3 {
+    margin-left: 16px;
   }
 
   .title-3.home {
@@ -9902,6 +9922,27 @@ a {
 
   #w-node-f06fcdf7-d4b6-49fe-88b3-48db894c9679-acc6ab7e {
     grid-area: Area-2;
+    -ms-grid-column: span 1;
+    grid-column-start: span 1;
+    -ms-grid-column-span: 1;
+    grid-column-end: span 1;
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+  }
+
+  #w-node-_594d31d2-6349-5df4-53da-884f32e6df90-acc6ab7e {
+    -ms-grid-column: span 1;
+    grid-column-start: span 1;
+    -ms-grid-column-span: 1;
+    grid-column-end: span 1;
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+    -ms-grid-column-align: start;
+    justify-self: start;
   }
 
   #w-node-b7ee975e-f891-9ee7-1a3b-fc648188ff51-05a4eee0 {
@@ -9933,6 +9974,14 @@ a {
   .blogs-all>#w-node-f06fcdf7-d4b6-49fe-88b3-48db894c9679-acc6ab7e {
     -ms-grid-row: 1;
     -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .blogs>#w-node-f06fcdf7-d4b6-49fe-88b3-48db894c9679-acc6ab7e {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
     -ms-grid-column: 1;
   }
 }
