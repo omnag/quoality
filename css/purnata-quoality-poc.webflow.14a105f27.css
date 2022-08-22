@@ -1,4 +1,4 @@
-/* Generated on: Mon Aug 22 2022 03:39:01 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Mon Aug 22 2022 03:47:21 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -5584,6 +5584,11 @@ a {
     line-height: 150%;
   }
 
+  .nav-item {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
   .container__display {
     max-width: 1216px;
   }
@@ -5681,6 +5686,7 @@ a {
   }
 
   .header-container__display {
+    height: 100%;
     max-width: 1216px;
     margin-right: auto;
     margin-left: auto;
@@ -5726,6 +5732,15 @@ a {
 
   .manrope-25r {
     font-size: 32px;
+  }
+
+  .manrope-25r.limit {
+    font-size: 20px;
+    line-height: 125%;
+  }
+
+  ._40t---padding {
+    height: 15px;
   }
 
   .title-2 {
@@ -5834,6 +5849,11 @@ a {
 
   .nav-name {
     margin-right: 0px;
+  }
+
+  .nav-name.dd {
+    font-size: 18px;
+    font-weight: 600;
   }
 
   .mm-obj {
